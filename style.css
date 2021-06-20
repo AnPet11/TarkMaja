@@ -1,0 +1,75 @@
+body{
+  background-color: rgba(161, 0, 161, 0.400);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+  background-color: white;
+  position: absolute;
+  
+  left: 20%;
+  width: 60%;
+  bottom: 2.45%;
+  height: 95%;
+}
+
+#pealkiri{
+  margin-left: 20px;
+}
+
+#sissejuhatus{
+  position: relative;
+  margin: 20px;
+}
+
+#seadmed{
+  position: relative;
+  left: 200px;
+}
+
+#sisu{
+  position: relative;
+  left: 0px;
+}
+
+#tingimused{
+  background-color:rgba(161, 0, 161, 0.400)
+}
+
+#topnav{
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  bottom: 97.5%;
+  left: 20%;
+  width: 60%;
+}
+
+a{
+  color: white;
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  margin-left: 14px;
+}
+
+#topnav a{
+  float: none;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 130%;
+}
+
+#topnav a:hover{
+	background-color: black;
+}
+
+#topnav a#active {
+	background-color: purple;
+}
+
+#banner{
+  text-align: center;
+}
