@@ -4,7 +4,7 @@
 Projekti osalejad: Harry Loog,Reimo Rämman, Kaspar Taniel Kannel, Angelina Petuhhova.
 Oma pannuse toonud ka: Jaagup Kippar, Meelis Karp, Inga Petuhhov.
 
-Kasutatud tehnoloogiad: PHP, Python, CSS, JavaScript.
+Kasutatud tehnoloogiad: PHP7.4.20, Python3.9, CSS3, JavaScript.
 
 1. Ühindage nodeMcu arvutiga.
 2. Minge veebilehele.
