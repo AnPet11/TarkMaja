@@ -66,6 +66,10 @@
 			$switch_array = explode("\n", $switch);
 			array_splice($switch_array,$i,1);
 			file_put_contents("tingimused.txt", implode("\n",$switch_array));
+			$switch2=file_get_contents("status.txt");
+			$switch_array2 = explode("\n", $switch2);
+			array_splice($switch_array2,$i,1);
+			file_put_contents("status.txt", implode("\n",$switch_array2));
 		}
 	}	
     require("header.php");
