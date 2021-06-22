@@ -8,13 +8,9 @@ Kasutatud tehnoloogiad: PHP7.4.20, Python3.9, CSS3, JavaScript.
 
 Installeerimine:
 
-1. Ühindage nodeMcu arvutiga.
-2. nodeMcu ühendada wifiga(muuta võrgu nimi ja salasõna ino failis real 38) ja uuendada kood selle peal
-3. Ülejäänud failid panna vabalt ligipääsetavale http serverile.
-5. Minge veebilehele.
-6. Lisage seadmeid ning võimsust.
-7. Minge "Tingimused" ning pange sobiliku tingimuse. 
-8. Kui soovite kustuta seadme, minge "Seadmed" ning valige vajaliku seadme, avatud lehe all on nupp "Kustuta".
+1. Veebileht panna vabalt ligipääsetavale http serverile.
+2. Arduino ühendada wifiga(muuta võrgu nimi ja salasõna ino failis real 38)
+3. Kasutada veebilehte seadistamiseks.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
