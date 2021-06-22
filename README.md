@@ -6,11 +6,16 @@ Oma pannuse toonud ka: Jaagup Kippar, Meelis Karp, Inga Petuhhov.
 
 Kasutatud tehnoloogiad: PHP7.4.20, Python3.9, CSS3, JavaScript.
 
+Installeerimine:
+
 1. Ühindage nodeMcu arvutiga.
-2. Minge veebilehele.
-3. Lisage seadmeid ning võimsust.
-4. Minge "Tingimused" ning pange sobiliku tingimuse. 
-5. Kui soovite kustuta seadme, minge "Seadmed" ning valige vajaliku seadme, avatud lehe all on nupp "Kustuta".
+2. nodeMcu ühendada wifiga(muuta võrgu nimi ja salasõna ino failis real 38) ja uuendada kood selle peal
+3. Veebileht panna vabalt ligipääsetavale http serverile.
+4. nodeMcu võib arvutist eemaldada ja panna mujale elektrit saama. 
+5. Minge veebilehele.
+6. Lisage seadmeid ning võimsust.
+7. Minge "Tingimused" ning pange sobiliku tingimuse. 
+8. Kui soovite kustuta seadme, minge "Seadmed" ning valige vajaliku seadme, avatud lehe all on nupp "Kustuta".
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
