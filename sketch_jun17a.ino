@@ -73,10 +73,6 @@ void loop() {
           char *teine=strtok_r(p, "\n", &p);
           char *kolmas=strtok_r(p, "\n", &p);
           char *neljas=strtok_r(p, "\n", &p);
-          char *viies=strtok_r(p, "\n", &p);
-          char *kuues=strtok_r(p, "\n", &p);
-          char *seitsmes=strtok_r(p, "\n", &p);
-          char *kaheksas=strtok_r(p, "\n", &p);
           Serial.println(esimene);
           Serial.println(String(esimene).toInt());
           Serial.println(teine);
@@ -84,41 +80,37 @@ void loop() {
           int aeg2=String(teine).toInt();
           int aeg3=String(kolmas).toInt();
           int aeg4=String(neljas).toInt();
-          int aeg5=String(viies).toInt();
-          int aeg6=String(kuues).toInt();
-          int aeg7=String(seitsmes).toInt();
-          int aeg8=String(kaheksas).toInt();
           Serial.println("viies");
           Serial.println(viies);
-          if(aeg5==1){
+          if(aeg1==1){
              Serial.println("sees");
              digitalWrite(D5, HIGH);
            } else  {
              Serial.println("valjas");
              digitalWrite(D5, LOW);   
            }
-           if(aeg6==1){
+           if(aeg2==1){
              Serial.println("sees");
              digitalWrite(D6, HIGH);
            } else  {
              Serial.println("valjas");
              digitalWrite(D6, LOW);   
            }
-           if(aeg7==1){
+           if(aeg3==1){
              Serial.println("sees");
              digitalWrite(D7, HIGH);
            } else  {
              Serial.println("valjas");
              digitalWrite(D7, LOW);   
            }
-           if(aeg8==1){
+           if(aeg4==1){
              Serial.println("sees");
              digitalWrite(D8, HIGH);
            } else  {
              Serial.println("valjas");
              digitalWrite(D8, LOW);   
            }
-          delay(60000);
+          delay(3600000);
 
          
         }
