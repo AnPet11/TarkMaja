@@ -10,8 +10,7 @@ Installeerimine:
 
 1. Ühindage nodeMcu arvutiga.
 2. nodeMcu ühendada wifiga(muuta võrgu nimi ja salasõna ino failis real 38) ja uuendada kood selle peal
-3. Veebileht panna vabalt ligipääsetavale http serverile.
-4. nodeMcu võib arvutist eemaldada ja panna mujale elektrit saama. 
+3. Ülejäänud failid panna vabalt ligipääsetavale http serverile.
 5. Minge veebilehele.
 6. Lisage seadmeid ning võimsust.
 7. Minge "Tingimused" ning pange sobiliku tingimuse. 
